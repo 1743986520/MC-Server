@@ -1,0 +1,60 @@
+services:
+  - type: web
+    name: proxy1
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      - key: MC_HOST
+        value: hongyuwei947.aternos.me
+      - key: MC_PORT
+        value: 21653
+
+  - type: web
+    name: proxy2
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      - key: MC_HOST
+        value: hongyuwei947.aternos.me
+      - key: MC_PORT
+        value: 21653
+
+  - type: web
+    name: proxy3
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      - key: MC_HOST
+        value: hongyuwei947.aternos.me
+      - key: MC_PORT
+        value: 21653
+
+  - type: web
+    name: proxy4
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      - key: MC_HOST
+        value: hongyuwei947.aternos.me
+      - key: MC_PORT
+        value: 21653
+
+  - type: web
+    name: proxy5
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      - key: MC_HOST
+        value: hongyuwei947.aternos.me
+      - key: MC_PORT
+        value: 21653
